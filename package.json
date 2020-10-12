@@ -1,0 +1,28 @@
+{
+  "devDependencies": {
+    "@fitbit/sdk": "~4.2.0"
+  },
+  "fitbit": {
+    "appUUID": "721aeb64-e8f7-4556-8949-981ecadb6cce",
+    "appType": "clockface",
+    "appDisplayName": "HallowsClock",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "",
+    "requestedPermissions": [
+      "access_activity",
+      "access_user_profile",
+      "access_heart_rate"
+    ],
+    "buildTargets": [
+      "gemini",
+      "mira",
+      "meson"
+    ],
+    "i18n": {
+      "en-US": {
+        "name": "HallowsClock"
+      }
+    },
+    "defaultLanguage": "en-US"
+  }
+}
