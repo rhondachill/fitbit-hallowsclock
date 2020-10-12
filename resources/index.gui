@@ -1,0 +1,43 @@
+<svg class="background">
+
+<!--Set Gradient BG-->
+ <gradientRect x="0" y="0" width="100%" height="100%"
+    gradient-type="bilinear"
+    gradient-x1="30" gradient-y1="30"
+    gradient-x2="100%-60" gradient-y2="100%-60"
+    gradient-color1="orangered"
+    gradient-color2="black"
+    gradient-color3="black"
+    gradient-color4="black" />
+  
+<!--Set Animation-->
+<image x="70%" y="2%" href="cloud.png" width="80" height="80">
+<animate attributeName="opacity" from="1" to="0" dur="3" final="restore" />
+</image>
+
+<image x="60%" y="20%" href="cloud.png" width="40" height="40">
+<animate attributeName="opacity" from="5" to="0" dur="10" final="restore" />
+</image>
+  
+<image x="60%" y="2%" href="cloud.png" width="30" height="30">
+<animate attributeName="opacity" from="1" to="0" dur="3" final="restore" />
+</image>
+
+  
+<!--SetDate--> 
+<text id="myDate" />
+  
+<!--SetTime--> 
+<text id="myLabel" />
+  
+<!--Img Assets-->
+<image x="65%" y="67%" href="hauntedhouse.png" width="100" height="100"/>
+<image x="-3%" y="74%" href="deadtree.png" width="80" height="80"/>
+<image x="12%" y="92%" href="gravestone.png" width="25" height="25"/>
+<image x="20%" y="92%" href="gravestone.png" width="25" height="25"/>
+<image x="27%" y="92%" href="gravestone.png" width="25" height="25"/>
+<image x="34%" y="92%" href="gravestone.png" width="25" height="25"/>
+
+
+
+</svg>
